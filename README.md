@@ -170,4 +170,21 @@ python naijas2st_scripts/gemini/few_shot_naijas2st.py
   results JSON after every utterance so they can be killed and restarted
   safely; some additionally skip already-processed IDs.
 - **Caching**: HuggingFace cache is routed through `$SCRATCH_CACHE`
-  (default `./hf_cache`).
+  (default `./hf_cache`)
+
+
+## Citation
+
+If you use this code or reuse our models in your research, please cite our paper:
+
+```bibtex
+@misc{maltais2026naijas2stmultiaccentbenchmarkspeechtospeech,
+      title={NaijaS2ST: A Multi-Accent Benchmark for Speech-to-Speech Translation in Low-Resource Nigerian Languages}, 
+      author={Marie Maltais and Yejin Jeon and Min Ma and Shamsuddeen Hassan Muhammad and Idris Abdulmumin and Maryam Ibrahim Mukhtar and Daud Abolade and Joel Okepefi and Johnson Sewedo and David Ifeoluwa Adelani},
+      year={2026},
+      eprint={2604.16287},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2604.16287}, 
+}
+```
