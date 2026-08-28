@@ -2,7 +2,7 @@
 
 Research code for benchmarking and improving speech translation for
 low-resource languages (LRLs), comparing three families of systems on the
-FLEURS benchmark and on a new NaijaS2ST test corpus
+FLEURS benchmark and on a new NaijaS2ST corpus
 (`McGill-NLP/NaijaS2ST`):
 
 1. **Cascaded** — Omnilingual ASR (Meta `omniASR_LLM_1B` / `LLM_7B` and
